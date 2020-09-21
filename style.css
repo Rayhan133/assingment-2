@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+.header{
+    background-color: #f0f0f0;
+    height: 36px;
+    border-bottom: 1px solid rgb(182, 179, 179);
+}
+
+.Top-nav{
+    line-height: 36px;
+}
+
+.Top-nav p{
+    font-size: 13px;
+    line-height: 36px;
+    font-weight: 400;
+
+}
+.Top-nav h1{
+    font-size: 13px;
+    line-height: 36px;
+    font-weight: 400;
+    border-right: 1px solid rgb(219, 214, 214);
+    padding-right: 15px;
+    height:36px;
+}
+
+.Top-nav i{
+    padding-right: 4px;
+    
+}
+.icon{
+  
+}
+.icon a i{
+    color: black;
+    
+}
+.othersicon:hover{
+    color: blue;
+    
+}
+.google:hover{
+    color: #ce4462;
+    
+}
+.active_class{
+    color: blue;
+}
+.navmainlogo{
+    font-size: 27px;
+    line-height: 100px;
+    font-weight: 700;
+    color: #1c1c1c;
+}
+.navmainlogoitem a{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #00c0e1;
+    
+}
+.First-item{
+    background-image: url('img/s09.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: 2s;
+   
+}
+.overlay{
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute; 
+    transition: 2s;
+}
+
+.First-item:hover #for_hover_slide_item_1{
+    margin-left: 150px;
+
+}
+.First-item:hover #for_hover_slide_item_2{
+    margin-left: 200px;
+
+}
+.slide_text h5{
+    color: #545454;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 44px;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+
+}
+.my_btn{
+
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+/* Second Slide Item */
+
+
+.Second-item{
+    background-image: url('img/s011.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: 2s;
+   
+}
+.overlay2{
+    cursor: pointer;
+    position:absolute; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 2s;
+}
+
+.First-item:hover #for_hover_slide_item_1{
+    margin-left: 150px;
+
+}
+.First-item:hover #for_hover_slide_item_2{
+    margin-left: 200px;
+
+}
+.slide_text h5{
+    color: #545454;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 44px;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+
+}
+.my_btn{
+
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 600;
+}
+#ThisisLAMBDA{
+    font-size: 48px;
+    line-height: 22px;
+    font-weight: 200;
+}
+
+#LAMBDA{
+    font-weight: 500;
+
+}
+.slide_text_second p{
+   
+    font-size: 27px;
+    line-height: 36px;
+    font-weight: 400;
+
+}
+.my_btn-snd{
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 600;
+}
+.Ourservices{
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #1c1c1c;
+
+}
+.Wehelpbusinesses{
+    font-size: 21px;
+    line-height: 37px;
+    font-weight: 300;
+    color: #4c4c4c;
+    width: 940px;
+}
+.ourServiceSingleItem{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #1c1c1c;
+   
+
+}
+.Interested_section{
+    background-color: #00c0e1;
+}
+.Interested{
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.letsBtn{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4c4c4c;
+
+}
+.Our_latest_work{
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 300;
+    color: #1c1c1c;
+}
+.Weputall{
+    font-size: 21px;
+    line-height: 37px;
+    font-weight: 300;
+    color: #4c4c4c;
+
+}
+
+.bg-1{background-color: #15889c;}
+.bg-2{background-color: #139bb3;}
+.bg-3{background-color: #12b7d4;}
+.bg-4{background-color: #0bc9eb;}
+
+
+
+.mid-counter h1{ 
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    
+    
+    
+
+}
+.mid-counter{
+
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 400;
+   
+    
+
+
+}
+
+.mid-counter p{ 
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    
+   
+    
+
+}
+.border_bottom
+{
+    border-bottom: 3px solid white;
+    width: 82px;
+    margin-left: 114px;
+   
+}
+.Our_team p{
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #1c1c1c;
+
+}
+.border_bottom_Our_team
+{
+    border-bottom: 3px solid #01c0e1;
+    width: 82px; 
+}
+.Our_team h1{
+    font-size: 21px;
+    line-height: 37px;
+    font-weight: 300;
+    color: #4c4c4c;
+
+}
+.single_team_member p{
+    font-size: 18px;
+    line-height: 27px;
+   
+    color: #1c1c1c;
+}
+.single_team_member h1{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4c4c4c;
+}
+.owl_left_item_img{
+    border: 7px solid #a7a1a1;
+    border-radius: 50%;
+   height: 15%!important;
+   width: 15%!important;
+}
+
+.owl_left_item h4{
+    
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 600;
+    color: #1c1c1c;
+
+}
+
+.owl_left_item p{
+    font-style: italic;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4c4c4c;
+}
+
+.owl_right_item p{
+    font-family: 'Gentium Basic', serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+.owl_right_item{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.my-item{
+    width: 280px !important;
+    height: 150px !important;
+
+
+}
+.AboutUs{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.createStunning{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(255, 255, 255 , 0.6);
+}
+.navbar-static-top{
+    position: fixed;
+}
+.Recentposts{
+   width: 17% !important;
+   height: 30% !important;
+}
+.Theknow{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #dddddd;
+}
+.September{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255 , 0.6);
+
+}
+.border_class{
+    border-bottom: 1px solid rgb(235, 225, 225,0.2);
+}
+.Arts{
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color: #ffffff;
+padding-bottom:8px ;
+}
+.fristslider_bg{
+    background: url('img/corporate-slider.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:230px 0px ;
+    position: relative;
+    opacity: 50%;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
